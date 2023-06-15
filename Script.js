@@ -8,7 +8,7 @@ searchButton.addEventListener('click', fetchPicture)
 
 function fetchPicture() {
   const category = categoryInput.value
-  const apiUrl = `https://api.unsplash.com/search/photos?query=${category}&client_id=19MHB3pi8fvfwZDJx7S8nV4PxcQ6KHK9ut1wEKC8ijk`
+  const apiUrl = `https://api.unsplash.com/search/photos?query=${category}&client_id=ACCESS_KEY`
 
   fetch(apiUrl)
     .then((response) => response.json())
