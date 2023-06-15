@@ -1,0 +1,43 @@
+.hero {
+  background-color: rgb(204, 209, 54);
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.search {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input[type='text'] {
+  padding: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 5px 10px;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.gallery {
+  padding-top: 39px;
+  padding-right: 40px;
+}
+
+.picture {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-right: 200px;
+}
